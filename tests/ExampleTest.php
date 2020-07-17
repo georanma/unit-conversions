@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Georanma\UnitConversions\Tests;
 
 use PHPUnit\Framework\TestCase;
 

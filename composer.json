@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "georanma/Unit Conversions",
+    "description": "A PHP package to help convert units of measurement.",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "georanma",
+        "Unit Conversions"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/georanma/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "George Birnbaum",
+            "email": "georanma@gmail.com",
+            "homepage": "https://georanma.com",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Georanma\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Georanma\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
