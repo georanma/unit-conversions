@@ -3,12 +3,12 @@
 
 namespace Georanma\UnitConversions;
 
-
 class Temperature
 {
     private float $celsius;
 
-    public static function fromCelsius(float $celsius): self {
+    public static function fromCelsius(float $celsius): self
+    {
         return new static($celsius);
     }
 
@@ -17,7 +17,8 @@ class Temperature
         $this->celsius = $celsius;
     }
 
-    public function toFahrenheit(): float {
+    public function toFahrenheit(): float
+    {
         return ($this->celsius * 1.8) + 32;
     }
 }
